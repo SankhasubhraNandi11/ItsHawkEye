@@ -1,0 +1,43 @@
+.search-txt{
+    border: 3px solid black;
+    border-radius: 30px;
+    height: 50px;
+    width: 250px;
+    margin-left: 480px;
+    background-color: #1a1a1a;
+    padding: 0%;
+}
+.search-txt1{
+    position: absolute;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #fff;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    margin-left: 20px;
+    background-color: #1a1a1a;
+    color: rgb(92, 90, 90);
+    font-weight: 400;
+}
+.search-txt1:focus{
+    outline: none;
+}
+.ic1{
+    position: relative;
+    color: #000;
+    margin-left: 200px;
+    margin-top: 4px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+.ic1:hover{
+    background-color: #3bcc4c;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+.s1{
+    margin-left: 150px;
+}
