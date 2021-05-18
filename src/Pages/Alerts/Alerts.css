@@ -1,6 +1,43 @@
-.a{
-    margin-top: 60px;
-    margin-left: 5%;
-    width: 90%;
-    height: 100%;
+
+.a1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -60px;
+}
+.a1 > :first-child{
+    margin-right: 10px;
+    
+}
+.jugad{
+    width: 0px;
+    height: 0px;
+    margin-top: 90px;
+
+}
+.pics{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.alert{
+    display: block;
+    margin-right:100px ;
+    align-content: center;
+}
+.alert:first-child{
+    margin-left: 220px;
+}
+.alert > img{
+    width: 100px;
+    height: 100px;
+    
+}
+.a3{
+    margin-top: 100px;
+    background-color:rgb(255, 255, 255);
+    height: 500px;
+    overflow-y: scroll;
+    border-right: 5px solid ;
+    margin-left: 5px;
 }

@@ -1,0 +1,17 @@
+.d1{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.d11{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.v1{
+    margin: 50px;
+    width:600px;
+    height: 200px;
+
+}

@@ -3,6 +3,8 @@ import * as BiIcons from 'react-icons/bi';
 import * as IoIcons from 'react-icons/io5';
 import * as GoIcons from 'react-icons/go';
 import * as RiIcons from 'react-icons/ri';
+import * as GiIcons from 'react-icons/gi';
+
 
 export const SidebarData = [
   {
@@ -17,6 +19,7 @@ export const SidebarData = [
     icon: <GoIcons.GoGraph/>,
     cName: 'nav-text'
   },
+
   {
     title: 'Alerts',
     path: '/alerts',

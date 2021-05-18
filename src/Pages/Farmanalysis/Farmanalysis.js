@@ -3,13 +3,14 @@ import FData from './FData'
 import './Farmanalysis.css'
 import land from './c.jpg'
 import id from './custom.png'
-import Footer from '../Store/components/Footer'
 import Cards2 from '../Extras/Cards/Cards2'
+import Chatbot from '../../Components/Chatbot/ChatBot'
 
 function Farmanalysis() {
     return (
         <div>
             <FData/>
+            <Chatbot/>
             <Cards2/>
             <div className="f1">
                     <img className="land" src={land} />
@@ -42,7 +43,6 @@ function Farmanalysis() {
                     </div>
             </div>
             <button className="btn">Generate Detailed Report</button>
-            <Footer/>
         </div>
         
     )
