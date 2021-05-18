@@ -1,24 +1,25 @@
-import React,{useRef,useEffect} from 'react'
+import tableau from 'tableau-api';
+import React, { Component } from 'react'; 
 
-const {tableau} = window;
 
-function Tableau() {
-    const ref=useRef(null)
-    const url="https://public.tableau.com/views/Agri1/Agri";
+class Tableau extends Component {  
+  componentDidMount() {  
+    this.initViz()  
+  }  
 
-    function initViz(){
-        new tableau.Viz(ref.current,url);
-    }
 
-    useEffect(()=>{
-        initViz();
-    },[])
+  initViz() {  
+  const vizUrl = 'https://prod-apnortheast-a.online.tableau.com/t/agri/views/Agri1/Dashboard2?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link&:device=desktop';  
+    const vizContainer = this.vizContainer;  
+    let viz = new window.tableau.Viz(vizContainer, vizUrl)  
+  }  
 
-    return (
-        <div ref={ref}>
-            sgs
-        </div>        
-    )
-}
 
+  render() {  
+    return (  
+      <div style={{width:"100%", height:"100%"}} ref={(div) => { this.vizContainer = div }}>  
+      </div>  
+    )  
+  }  
+}  
 export default Tableau
